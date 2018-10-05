@@ -4,6 +4,6 @@
 int main() {
   int a;
   scanf("%f", a);
-  printf("%.3lf", (a/2)*(sqrt(3)/2)*a);
+  printf("%.3lf", a*a*(sqrt(3))/4);
   return 0;
 }
