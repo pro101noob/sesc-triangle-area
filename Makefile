@@ -1,5 +1,4 @@
 run: secs
-
 	./secs
 
 secs: secs.c
