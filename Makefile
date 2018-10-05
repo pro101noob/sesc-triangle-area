@@ -1,8 +1,8 @@
-run: prog
+run: secs
 
-	./prog
+	./secs
 
-prog: prog.c
-	gcc -Wall -std=c11 prog.c -o prog
+secs: secs.c
+	gcc -Wall -std=c11 secs.c -o secs
 
-build: prog
+build: secs
